@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
   <img alt="Logo" src="./public/github-splash.png" width="550" />
 </div>
 <h1 align="center">
@@ -29,7 +29,7 @@
 
    ```sh
    yarn dev
-   ```
+   ``` -->
 
 ## 🚁 Contributing
 
