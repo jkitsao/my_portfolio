@@ -14,7 +14,7 @@ export const Contact: FC = () => {
       <Container>
         <div className="mt-4">
           <a
-            href="mailto:temirzhan.yussupov@gmail.com"
+            href="mailto: kitsaojackson22@gmail.com"
             className="text-base font-medium md:text-xl text-black-900 dark:text-white-900"
           >
             kitsaojackson22@gmail.com
