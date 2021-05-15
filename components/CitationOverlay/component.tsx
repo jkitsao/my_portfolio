@@ -16,9 +16,9 @@ const textVariants = {
 };
 
 export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
-  const [quotes, setQuotes] = useState([
+  const [quotes] = useState([
     "Entities should not be multiplied unnecessarily",
     "Leisure is the mother of philosophy",
     "Metaphysics is a dark ocean without shores or lighthouse, strewn with many a philosophic wreck",
