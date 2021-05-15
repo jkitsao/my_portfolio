@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { useTranslation } from "next-i18next";
 import React, { FC,useState } from "react";
 
 import { Container } from "../Container";
