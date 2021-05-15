@@ -1,0 +1,56 @@
+{
+  "headTitle": "Home | Jackson kitsao",
+  "hero": {
+    "title": "Hi, I'm Jackson kitsao!",
+    "p0": "Full-stack web developer",
+    "p1": "Currently working full-time at",
+    "p2": "",
+    "des0": "",
+    "des1": "I'm passionate about developing innovative products geared toward simplifying & Improving life..",
+    "des2": "My technology stack includes React, nextjs, Nodejs, Python, MongoDB express and php.",
+    "des3": "I am also currently learning more about Cloud infrastructure, Embeded systems and Machine learning."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Here are some of my most favourite projects that I enjoyed coding and designing",
+    "bacplay": {
+      "subtitle": "Online code Editor",
+      "description": " an online IDE (integrated development environment). prototyping tool for learning web development"
+    },
+    "tipjarr": {
+      "subtitle": "Web development blog",
+      "description": "Blog about All things web development, i share web development tutorials and tricks."
+    },
+    "zemo": {
+      "subtitle": "Random video chat app for developers",
+      "description": "A web application that lets you video chat with random developers"
+    },
+     "bloglint": {
+      "subtitle": "Forum for bloggers",
+      "description": "Where bloggers share articles, discuss, learn and get feedback from others"
+    },
+    "linkr": {
+      "subtitle": "Link management platform",
+      "description": " a tool that allows you to host multiple links,you can update your links in just a few clicks"
+    },
+    "shopfast": {
+      "subtitle": "Search once,search everywhere",
+      "description": "An web app that lets you search for a product from multiple e-commerce sites in Kenya"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "I am passionate about using cutting-edge technologies. These are the tools I am most familiar with and build things every day."
+  },
+  "experience": {
+    "title": "Experience",
+    "description": "Here are some great companies I had the honour to join for working on various interesting projects."
+  },
+  "contact": {
+    "title": "Wanna reach out?",
+    "description": "Feel free to drop me a message if you have some interesting offer or project."
+  },
+  "currently": "Currently"
+  
+  
+}
