@@ -15,7 +15,7 @@ export const Projects: FC = () => {
         description: t("projects.bacplay.description"),
         technologies: ["React", "Firebase"],
         externalLink: "https://laddy.app",
-        githubLink: "https://github.com/ironsoul0/laddy",
+        githubLink: "https://github.com/jkitsao",
         imageLink: `/images/bacplay.png`,
       },
       {
@@ -24,7 +24,7 @@ export const Projects: FC = () => {
         description: t("projects.tipjarr.description"),
         technologies: ["React", "Nextjs", "Markdown"],
         externalLink: "https://tipjarr.net",
-        githubLink: "https://github.com/ironsoul0/nuopen",
+        githubLink: "https://github.com/jkitsao",
         imageLink: `/images/tipjarr.png`,
       },
       {
@@ -33,7 +33,7 @@ export const Projects: FC = () => {
         description: t("projects.zemo.description"),
         technologies: ["React", "WebRTC", "Nodejs", "socket.io"],
         externalLink: "https://zemo.live",
-        githubLink: "https://github.com/ironsoul0/samruk-hackathon",
+        githubLink: "https://github.com/jkitsao",
         imageLink: `/images/zemo.png`,
       },
       {
@@ -42,7 +42,7 @@ export const Projects: FC = () => {
         description: t("projects.bloglint.description"),
         technologies: ["Nextjs", "Mongodb", "Nodejs", "express"],
         externalLink: "https://bloglint.com/",
-        githubLink: "https://github.com/ironsoul0/samruk-hackathon",
+        githubLink: "https://github.com/jkitsao",
         imageLink: `/images/bloglint.png`,
       },
       {
@@ -51,7 +51,7 @@ export const Projects: FC = () => {
         description: t("projects.linkr.description"),
         technologies: ["Nextjs", "firebase", "cloudinary"],
         externalLink: "https://linkr.vercel.app/",
-        githubLink: "https://github.com/ironsoul0/samruk-hackathon",
+        githubLink: "https://github.com/jkitsao",
         imageLink: `/images/linkr.png`,
       },
       {
@@ -59,8 +59,8 @@ export const Projects: FC = () => {
         subtitle: t("projects.shopfast.subtitle"),
         description: t("projects.shopfast.description"),
         technologies: ["React", "serverless", "nextjs"],
-        externalLink: "https://railwayz.ironsoul.me",
-        githubLink: "https://github.com/ironsoul0/samruk-hackathon",
+        externalLink: "https://shopfast.vercel.app",
+        githubLink: "https://github.com/jkitsao",
         imageLink: `/images/shopfast.png`,
       },
     ],
