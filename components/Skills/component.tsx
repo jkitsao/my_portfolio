@@ -11,8 +11,8 @@ import { Skill } from "./libs/Skill";
 
 const skills = [
   {
-    name: "TypeScript",
-    href: "https://typescriptlang.org",
+    name: "Javascript",
+    href: "",
     icon: <TsIcon />,
   },
   {
