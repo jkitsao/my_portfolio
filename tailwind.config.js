@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
@@ -5,13 +6,16 @@ module.exports = {
   darkMode: "class",
   theme: {
     colors: {
-      darkTheme: "#171a23",
+      darkTheme: "#251D3A",
+      navy: "#2A2550",
       white: {
         900: "#ffffff",
         700: "#C9C9CB",
         500: "#A5A6A9",
         300: "#363B49",
       },
+      darkOrange: '#E04D01',
+      lightOrange: '#FF7700',
       gray: {
         700: "#8E8E8E",
         900: "#363B49",

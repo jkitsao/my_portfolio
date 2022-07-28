@@ -1,14 +1,14 @@
 .description {
-  @apply md:px-8 md:py-6 my-8 text-base md:text-base rounded-md text-black-700 md:bg-lightTheme;
+  @apply my-8 text-base rounded-md text-black-700;
   max-width: 30rem;
 }
 
 .container {
-  @apply relative mb-10 md:mb-20 md:mt-28 bg-cover;
+  @apply relative bg-cover;
 }
 
 :global(.dark) .description {
-  @apply md:bg-darkTheme text-white-700;
+  @apply text-white-700;
 }
 
 @media screen and (min-width: 768px) {

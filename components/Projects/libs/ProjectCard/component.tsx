@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import clsx from "clsx";
 import { MediaIcon } from "components";
 import { motion } from "framer-motion";
@@ -28,20 +29,20 @@ export const ProjectCard: FC<Props> = ({
         <div className={clsx(rightShift && "md:text-right")}>
           <a
             href={externalLink}
-            className="text-xl font-bold md:text-2xl dark:text-white-900 text-black-900"
+            className="text-xl font-bold md:text-2xl dark:text-darkOrange text-darkOrange"
             target="_blank"
             rel="noreferrer"
           >
             {title}
           </a>
-          <p className="text-base font-medium md:text-xl dark:text-white-700 text-black-700">
+          <p className="text-base font-medium md:text-xl dark:text-lightOrange text-lightOrange">
             {subtitle}
           </p>
         </div>
         <p
           className={clsx(
             styles.description,
-            rightShift && "md:ml-auto md:text-right"
+            rightShift && "md:ml-auto md:text-right bg-navy md:px-8 md:py-6"
           )}
         >
           {description}
@@ -52,7 +53,7 @@ export const ProjectCard: FC<Props> = ({
           {technologies.map((tech, i) => (
             <p
               className={clsx(
-                "text-base dark:text-white-700 text-black-700",
+                "text-base dark:text-white-700 text-black-700 border px-2",
                 i !== technologies.length - 1 && "mr-5 md:mr-8"
               )}
               key={tech}
@@ -64,11 +65,11 @@ export const ProjectCard: FC<Props> = ({
         <div
           className={clsx("flex items-center", rightShift && "md:justify-end")}
         >
-          <MediaIcon
+          {/* <MediaIcon
             icon={<FaGithub className="w-6 h-6" />}
             href={githubLink}
             className="mr-4"
-          />
+          /> */}
           <MediaIcon
             icon={<OutIcon className="w-6 h-6 stroke-current" />}
             href={externalLink}

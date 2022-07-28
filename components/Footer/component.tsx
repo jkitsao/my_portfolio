@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Container } from "components";
 import React, { FC } from "react";
 
@@ -11,7 +12,7 @@ export const Footer: FC = () => {
           className="hover:opacity-80 transition-opacity"
           rel="noreferrer"
         >
-          Jackson kitsao © 2021
+          Jackson kitsao © 2022
         </a>
       </p>
     </Container>

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Container, Logo } from "components";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -84,9 +85,7 @@ export const Header: FC = () => {
         <Link href="/">
           <a href="/">
             {/* <Logo className="w-24 fill-current md:w-28 dark:text-white-900 text-black-900" /> */}
-            <h2 className='font-semibold text-3xl text-blue-400'>
-              @kitsao
-            </h2>
+            <h2 className="text-3xl font-semibold dark:text-lightOrange text-darkOrange">@kitsao</h2>
           </a>
         </Link>
         <div className="flex items-center">

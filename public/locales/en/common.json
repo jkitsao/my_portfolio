@@ -2,19 +2,23 @@
   "headTitle": "Home | Jackson kitsao",
   "hero": {
     "title": "Hi, I'm Jackson kitsao!",
-    "p0": "Full-stack web developer",
+    "p0": "Web Applications developer",
     "p1": "Currently working full-time at",
     "p2": "",
     "des0": "",
     "des1": "I'm passionate about developing innovative products geared toward simplifying & Improving life..",
     "des2": "My technology stack includes React, nextjs, Nodejs, Python, MongoDB express and php.",
-    "des3": "I am also currently learning more about Cloud infrastructure, Embeded systems and Machine learning."
+    "des3": "I am also currently learning more about Cloud infrastructure,Game development, Distributed systems and Machine learning."
   },
   "projects": {
-    "title": "Projects",
-    "description": "Here are some of my most favourite projects that I enjoyed coding and designing",
+    "title": "What i'm Working on ",
+    "description": "Ive recently been working on my startup a Development Agency called Birdbox",
     "bacplay": {
       "subtitle": "Online code Editor",
+      "description": " an online IDE (integrated development environment). prototyping tool for learning web development"
+    },
+    "birdbox": {
+      "subtitle": "Software development/Tech Agency",
       "description": " an online IDE (integrated development environment). prototyping tool for learning web development"
     },
     "tipjarr": {
@@ -25,7 +29,7 @@
       "subtitle": "Random video chat app for developers",
       "description": "A web application that lets you video chat with random developers"
     },
-     "bloglint": {
+    "bloglint": {
       "subtitle": "Forum for bloggers",
       "description": "Where bloggers share articles, discuss, learn and get feedback from others"
     },
@@ -51,6 +55,4 @@
     "description": "Feel free to drop me a message if you have some interesting offer or project."
   },
   "currently": "Currently"
-  
-  
 }

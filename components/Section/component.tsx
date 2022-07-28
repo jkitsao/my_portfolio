@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { motion, useAnimation } from "framer-motion";
 import React, { FC, useEffect } from "react";
 import { useInView } from "react-intersection-observer";

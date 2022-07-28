@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Container, MediaIcon } from "components";
 import { motion } from "framer-motion";
 import { useTranslation } from "next-i18next";
@@ -37,23 +38,23 @@ export const Hero: FC = () => {
         animate="visible"
       />
       <div className="flex items-center">
-        <h1 className="mt-6 mb-6 text-4xl font-bold md:mt-8 md:mb-8 md:text-5xl text-black-900 dark:text-white-900">
+        <h1 className="mt-6 mb-6 text-4xl font-bold md:mt-8 md:mb-8 md:text-5xl text-darkOrange dark:text-darkOrange">
           {t("hero.title")}
         </h1>
         <HandWave className="text-4xl md:text-5xl" />
       </div>
-      <p className="text-xl font-bold tracking-normal md:text-3xl text-black-700 dark:text-white-700">
+      <p className="text-xl font-bold tracking-normal md:text-3xl text-lightOrange dark:text-lightOrange">
         {t("hero.p0")}
         <br />
         {t("hero.p1")}{" "}
         <motion.a
           href="https://mymovies.africa"
           target="_blank"
-          className="relative text-blue-700"
+          className="relative text-darkOrange dark:text-darkOrange"
           whileHover="visible"
           initial="hidden"
         >
-          @mymovies.africa
+          mymovies.africa
           <motion.span
             className="absolute bottom-0 left-0 w-full bg-blue-700 h-0.5"
             variants={{
@@ -118,15 +119,15 @@ export const Hero: FC = () => {
         />
       </div>
       <div className="mt-10">
-        <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
+        <p className="mb-8 text-base md:text-xl dark:text-lightOrange text-darkOrange">
           {t("hero.des0")}
         </p>
-        <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
+        <p className="mb-8 text-base md:text-xl dark:text-lightOrange text-darkOrange">
           {t("hero.des1")}
           <br />
           {t("hero.des2")}
         </p>
-        <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
+        <p className="mb-8 text-base md:text-xl dark:text-lightOrange text-darkOrange">
           {t("hero.des3")}
         </p>
       </div>

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import {
   CitationOverlay,
   Contact,
@@ -22,8 +23,8 @@ const IndexPage = () => {
 
   useEffect(() => {
     const ids = [
-      setTimeout(() => setCitation(false), 4800),
-      setTimeout(() => setMain(true), 5700),
+      setTimeout(() => setCitation(false), 1800),
+      setTimeout(() => setMain(true), 2700),
     ];
 
     return () => ids.forEach((id) => clearTimeout(id));
@@ -34,7 +35,7 @@ const IndexPage = () => {
       <Head>
         <title>{t("headTitle")}</title>
       </Head>
-      <CitationOverlay citation={citation} />
+      {/* <CitationOverlay citation={citation} /> */}
       <motion.div
         variants={{
           initial: {
