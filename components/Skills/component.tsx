@@ -1,43 +1,44 @@
-import { Container, Section } from "components";
-import { useAnimation } from "framer-motion";
-import { useTranslation } from "next-i18next";
-import React, { FC, useEffect } from "react";
-import { FaReact } from "react-icons/fa";
-import { SiNextDotJs, SiNodeDotJs, SiFirebase } from "react-icons/si";
-import { useInView } from "react-intersection-observer";
+import { Container, Section } from 'components';
+import { useAnimation } from 'framer-motion';
+import { useTranslation } from 'next-i18next';
+import React, { FC, useEffect } from 'react';
+import { FaReact } from 'react-icons/fa';
+import { SiFirebase, SiNextDotJs, SiNodeDotJs } from 'react-icons/si';
+import { useInView } from 'react-intersection-observer';
 
-import { EthereumIcon, GoIcon, TsIcon } from "./libs/Icons";SiFirebase
-import { Skill } from "./libs/Skill";
+import { EthereumIcon, GoIcon, TsIcon } from './libs/Icons';
+SiFirebase;
+import { Skill } from './libs/Skill';
 
 const skills = [
   {
-    name: "Javascript",
-    href: "",
+    name: 'Javascript',
+    href: '',
     icon: <TsIcon />,
   },
   {
-    name: "React",
-    href: "https://reactjs.org",
+    name: 'React',
+    href: 'https://reactjs.org',
     icon: <FaReact color="#00D8FF" />,
   },
   {
-    name: "Nextjs",
-    href: "https://nextjs.org/",
+    name: 'Nextjs',
+    href: 'https://nextjs.org/',
     icon: <SiNextDotJs />,
   },
   {
-    name: "Node.js",
-    href: "https://nodejs.org",
+    name: 'Node.js',
+    href: 'https://nodejs.org',
     icon: <SiNodeDotJs color="#539E43" />,
   },
   {
-    name: "Tailwindcss",
-    href: "https://tailwindcss.com/",
+    name: 'Tailwindcss',
+    href: 'https://tailwindcss.com/',
     icon: <GoIcon />,
   },
   {
-    name: "Firebase",
-    href: "https://firebase.google.com/",
+    name: 'Firebase',
+    href: 'https://firebase.google.com/',
     icon: <SiFirebase color="#FFFF00" />,
   },
 ];
@@ -45,7 +46,7 @@ const skills = [
 export const Skills: FC = () => {
   const controls = useAnimation();
   const [ref, inView] = useInView();
-  const { t } = useTranslation("common");
+  const { t } = useTranslation('common');
 
   useEffect(() => {
     if (inView) {
@@ -59,8 +60,8 @@ export const Skills: FC = () => {
   return (
     <Section
       className="mt-20 mb-16 md:mt-28"
-      title={t("skills.title")}
-      description={t("skills.description")}
+      title={t('skills.title')}
+      description={t('skills.description')}
     >
       <Container>
         <div

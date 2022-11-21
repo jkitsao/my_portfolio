@@ -1,8 +1,8 @@
-import clsx from "clsx";
-import { motion } from "framer-motion";
-import React, { FC } from "react";
+import clsx from 'clsx';
+import { motion } from 'framer-motion';
+import React, { FC } from 'react';
 
-import { Props } from "./props";
+import { Props } from './props';
 
 export const MediaIcon: FC<Props> = ({ icon, href, className }: Props) => {
   return (
@@ -11,7 +11,7 @@ export const MediaIcon: FC<Props> = ({ icon, href, className }: Props) => {
       target="_blank"
       whileHover="hover"
       initial="initial"
-      className={clsx("relative", className)}
+      className={clsx('relative', className)}
     >
       <motion.div
         variants={{

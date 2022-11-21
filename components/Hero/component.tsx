@@ -38,19 +38,19 @@ export const Hero: FC = () => {
         animate="visible"
       />
       <div className="flex items-center">
-        <h1 className="mt-6 mb-6 text-4xl font-bold md:mt-8 md:mb-8 md:text-5xl text-darkOrange dark:text-darkOrange">
+        <h1 className="mt-6 mb-6 text-4xl font-bold md:mt-8 md:mb-8 md:text-5xl text-blue-100 dark:text-darkOrange">
           {t("hero.title")}
         </h1>
         <HandWave className="text-4xl md:text-5xl" />
       </div>
-      <p className="text-xl font-bold tracking-normal md:text-3xl text-lightOrange dark:text-lightOrange">
+      <p className="text-xl font-bold py-2 tracking-normal md:text-3xl text-gray-800 dark:text-lightOrange">
         {t("hero.p0")}
         <br />
         {t("hero.p1")}{" "}
         <motion.a
           href="https://mymovies.africa"
           target="_blank"
-          className="relative text-darkOrange dark:text-darkOrange"
+          className="relative text-darkOrange dark:text-gray-200"
           whileHover="visible"
           initial="hidden"
         >
@@ -119,15 +119,16 @@ export const Hero: FC = () => {
         />
       </div>
       <div className="mt-10">
-        <p className="mb-8 text-base md:text-xl dark:text-lightOrange text-darkOrange">
+        <p className="mb-8 text-base md:text-xl dark:text-lightOrange text-blue-800">
           {t("hero.des0")}
         </p>
-        <p className="mb-8 text-base md:text-xl dark:text-lightOrange text-darkOrange">
+        <p className="mb-8 text-base md:text-xl dark:text-lightOrange text-blue-800">
           {t("hero.des1")}
-          <br />
+        </p>
+        <p className="mb-8 text-base md:text-xl dark:text-lightOrange text-blue-800">
           {t("hero.des2")}
         </p>
-        <p className="mb-8 text-base md:text-xl dark:text-lightOrange text-darkOrange">
+        <p className="mb-8 text-base md:text-xl dark:text-lightOrange text-blue-800">
           {t("hero.des3")}
         </p>
       </div>

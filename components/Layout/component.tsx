@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { FC } from "react";
 
 import { Props } from "./props";

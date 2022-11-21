@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import "styles/index.scss";
 
 import { Layout } from "components";
@@ -5,7 +6,8 @@ import { AppProps } from "next/app";
 import Head from "next/head";
 import { appWithTranslation } from "next-i18next";
 // import { DefaultSeo } from "next-seo";
-import { ThemeProvider } from "next-themes";
+// eslint-disable-next-line prettier/prettier
+import { ThemeProvider } from 'next-themes';
 
 // import SEO from "../next-seo.config";
 

@@ -1,5 +1,5 @@
-import { HTMLAttributes } from "react";
+import { HTMLAttributes } from 'react';
 
-import { SectionHeaderProps } from "./libs/SectionHeader";
+import { SectionHeaderProps } from './libs/SectionHeader';
 
 export type Props = HTMLAttributes<HTMLDivElement> & SectionHeaderProps;

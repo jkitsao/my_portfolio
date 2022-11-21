@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
-import React, { cloneElement, FC } from "react";
+import { motion } from 'framer-motion';
+import React, { cloneElement, FC } from 'react';
 
-import { Props } from "./props";
+import { Props } from './props';
 
 export const Skill: FC<Props> = ({
   name,
@@ -14,7 +14,7 @@ export const Skill: FC<Props> = ({
     <motion.a
       className="block pt-3 pb-2 text-center dark:bg-gray-900 rounded-md bg-whiteTheme"
       style={{
-        boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.10)",
+        boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.10)',
       }}
       target="_blank"
       href={href}
@@ -31,7 +31,7 @@ export const Skill: FC<Props> = ({
       animate={controls}
       custom={custom}
     >
-      {cloneElement(icon, { className: "mx-auto w-9 h-9" })}
+      {cloneElement(icon, { className: 'mx-auto w-9 h-9' })}
       <p className="mt-2 text-base font-medium text-black-700 dark:text-white-700">
         {name}
       </p>

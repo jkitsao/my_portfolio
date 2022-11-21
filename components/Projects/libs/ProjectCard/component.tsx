@@ -24,7 +24,7 @@ export const ProjectCard: FC<Props> = ({
   const [hoverRef, isHovered] = useHover<HTMLAnchorElement>();
 
   return (
-    <div className={clsx(styles.container, className)} style={{ zIndex: 1 }}>
+    <div className='relative bg-cover ' style={{ zIndex: 1 }}>
       <div className="px-6 py-6 md:p-0">
         <div className={clsx(rightShift && "md:text-right")}>
           <a
@@ -42,13 +42,16 @@ export const ProjectCard: FC<Props> = ({
         <p
           className={clsx(
             styles.description,
-            rightShift && "md:ml-auto md:text-right bg-navy md:px-8 md:py-6"
+            rightShift ? "md:ml-auto md:text-right p-3 bg-navy dark:text-gray-100 text-gray-100 md:px-8 md:py-6":'p-3 bg-navy dark:text-gray-100 text-gray-100 '
           )}
+          // style={{
+          //   backgroundColor:''
+          // }}
         >
           {description}
         </p>
         <div
-          className={clsx("flex md:mb-4 mb-2", rightShift && "md:justify-end")}
+          className={clsx("flex md:mb-4 mb-2 ", rightShift && "md:justify-end")}
         >
           {technologies.map((tech, i) => (
             <p
@@ -65,11 +68,11 @@ export const ProjectCard: FC<Props> = ({
         <div
           className={clsx("flex items-center", rightShift && "md:justify-end")}
         >
-          {/* <MediaIcon
+          <MediaIcon
             icon={<FaGithub className="w-6 h-6" />}
             href={githubLink}
             className="mr-4"
-          /> */}
+          />
           <MediaIcon
             icon={<OutIcon className="w-6 h-6 stroke-current" />}
             href={externalLink}
@@ -94,7 +97,7 @@ export const ProjectCard: FC<Props> = ({
         initial="initial"
       >
         <img
-          className="object-cover w-full h-full rounded-lg opacity-30 md:h-auto dark:opacity-40 md:opacity-100 md:dark:opacity-80"
+          className="object-contain bg-black w-full h-full rounded-lg opacity-30 md:h-auto dark:opacity-40 md:opacity-100 md:dark:opacity-80"
           src={imageLink}
           alt={title}
           style={{

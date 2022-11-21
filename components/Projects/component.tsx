@@ -14,38 +14,39 @@ export const Projects: FC = () => {
         title: "Birdbox",
         subtitle: t("projects.birdbox.subtitle"),
         description: t("projects.birdbox.description"),
-        technologies: ["Software development", "Game development", "Artificial inteligence"],
+        technologies: ["Software development", "Artificial inteligence"],
         externalLink: "https://birdbox-ten.vercel.app/",
         githubLink: "",
         imageLink: `/images/birdbox.png`,
       },
-      // {
-      //   title: "Tipjarr",
-      //   subtitle: t("projects.tipjarr.subtitle"),
-      //   description: t("projects.tipjarr.description"),
-      //   technologies: ["React", "Nextjs", "Markdown"],
-      //   externalLink: "https://tipjarr.net",
-      //   githubLink: "https://github.com/jkitsao",
-      //   imageLink: `/images/tipjarr.png`,
-      // },
-      // {
-      //   title: "zemo",
-      //   subtitle: t("projects.zemo.subtitle"),
-      //   description: t("projects.zemo.description"),
-      //   technologies: ["React", "WebRTC", "Nodejs", "socket.io"],
-      //   externalLink: "https://devcrib.herokuapp.com/",
-      //   githubLink: "https://github.com/jkitsao",
-      //   imageLink: `/images/zemo.png`,
-      // },
-      // {
-      //   title: "bloglint",
-      //   subtitle: t("projects.bloglint.subtitle"),
-      //   description: t("projects.bloglint.description"),
-      //   technologies: ["Nextjs", "Mongodb", "Nodejs", "express"],
-      //   externalLink: "https://bloglint.com/",
-      //   githubLink: "https://github.com/jkitsao",
-      //   imageLink: `/images/bloglint.png`,
-      // },
+      {
+        title: "Xfm online",
+        subtitle: t("projects.xfm.subtitle"),
+        description: t("projects.xfm.description"),
+        technologies: ["Nextjs", "Docker","Azure"],
+        externalLink: "https://www.xfmradio.co.ke/",
+        githubLink: "https://github.com/jkitsao/xfm",
+        imageLink: `/images/xfmonline.png`,
+      },
+      {
+        title: "Reddit films",
+        subtitle: t("projects.redditflix.subtitle"),
+        description: t("projects.redditflix.description"),
+        technologies: ["Nextjs", "React-Query", "Redis"],
+        externalLink: "https://redditflix.xyz",
+        githubLink: "https://github.com/jkitsao/redditfilms",
+        imageLink: `/images/redditflix.png`,
+      },
+      {
+        title: "zemo",
+        subtitle: t("projects.zemo.subtitle"),
+        description: t("projects.zemo.description"),
+        technologies: ["React", "WebRTC", "Nodejs", "socket.io"],
+        externalLink: "https://devcrib.herokuapp.com/",
+        githubLink: "https://github.com/jkitsao",
+        imageLink: `/images/zemo.png`,
+      },
+      
       // {
       //   title: "Linkr",
       //   subtitle: t("projects.linkr.subtitle"),
@@ -70,7 +71,7 @@ export const Projects: FC = () => {
 
   return (
     <Section
-      className="md:mt-20 mt-14 dark:text-darkOrange text-darkOrange"
+      className="md:mt-20 mt-14 dark:text-darkOrange text-blue-800"
       title={t("projects.title")}
       description={t("projects.description")}
     >

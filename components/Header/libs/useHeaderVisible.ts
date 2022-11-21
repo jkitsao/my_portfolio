@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from 'react';
 
 export const useHeaderVisible = (): boolean => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -13,9 +13,9 @@ export const useHeaderVisible = (): boolean => {
   }, [setVisible, setPrevScrollPos, prevScrollPos]);
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, [handleScroll]);
 
   return visible;

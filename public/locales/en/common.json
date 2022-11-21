@@ -6,32 +6,32 @@
     "p1": "Currently working full-time at",
     "p2": "",
     "des0": "",
-    "des1": "I'm passionate about developing innovative products geared toward simplifying & Improving life..",
-    "des2": "My technology stack includes React, nextjs, Nodejs, Python, MongoDB express and php.",
-    "des3": "I am also currently learning more about Cloud infrastructure,Game development, Distributed systems and Machine learning."
+    "des1": "I am a NextJs, Node and Rust developer with a strong interest in web development and web performance.",
+    "des2": "I have a wide range of experience in both backend and frontend development, and I am always keen to learn new technologies and improve my skills. I am a quick learner and have a good eye for detail, which makes me an asset to any team. I am also a good communicator and have a strong work ethic. My technology stack includes React, Nextjs, Nodejs, Redis, MongoDB express and Microservises.",
+    "des3": "I am also currently learning more about Cloud infrastructure, Game development, Distributed systems and Machine learning."
   },
   "projects": {
     "title": "What i'm Working on ",
     "description": "Ive recently been working on my startup a Development Agency called Birdbox",
     "bacplay": {
-      "subtitle": "Online code Editor",
+      "subtitle": "Technology Agency",
       "description": " an online IDE (integrated development environment). prototyping tool for learning web development"
     },
     "birdbox": {
-      "subtitle": "Software development/Tech Agency",
-      "description": " an online IDE (integrated development environment). prototyping tool for learning web development"
+      "subtitle": "Tech development studio",
+      "description": " A software development agency that partners with startups and enterprises to turn their innovative ideas into impactful digital products."
     },
-    "tipjarr": {
-      "subtitle": "Web development blog",
-      "description": "Blog about All things web development, i share web development tutorials and tricks."
+    "xfm": {
+      "subtitle": "Online Rock Radio",
+      "description": "Listen to Great Rock music online, Rock out with the best Online Rock music station!"
     },
     "zemo": {
       "subtitle": "Random video chat app for developers",
       "description": "A web application that lets you video chat with random developers"
     },
-    "bloglint": {
-      "subtitle": "Forum for bloggers",
-      "description": "Where bloggers share articles, discuss, learn and get feedback from others"
+    "redditflix": {
+      "subtitle": "Get Movie and Tv shows recomendation from reddit",
+      "description": "Get Movie and Tv shows recomendation from reddit"
     },
     "linkr": {
       "subtitle": "Link management platform",

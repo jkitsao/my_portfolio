@@ -1,5 +1,5 @@
-import { Props } from "./props";
+import { Props } from './props';
 
-export * from "./component";
+export * from './component';
 
 export type SectionHeaderProps = Props;

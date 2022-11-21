@@ -1,8 +1,8 @@
-import clsx from "clsx";
-import { motion } from "framer-motion";
-import React, { FC, useEffect, useState } from "react";
+import clsx from 'clsx';
+import { motion } from 'framer-motion';
+import React, { FC, useEffect, useState } from 'react';
 
-import { Props } from "./props";
+import { Props } from './props';
 
 export const HandWave: FC<Props> = ({ className }: Props) => {
   const [toRotated, setToRotated] = useState(false);
@@ -21,7 +21,7 @@ export const HandWave: FC<Props> = ({ className }: Props) => {
 
   return (
     <motion.span
-      className={clsx("block ml-3", className)}
+      className={clsx('block ml-3', className)}
       aria-hidden="true"
       role="img"
       variants={{
@@ -33,12 +33,12 @@ export const HandWave: FC<Props> = ({ className }: Props) => {
         },
       }}
       transition={{
-        type: "spring",
+        type: 'spring',
         damping: 4,
         mass: 0.3,
       }}
       initial="initial"
-      animate={toRotated ? "rotated" : "initial"}
+      animate={toRotated ? 'rotated' : 'initial'}
     >
       👋
     </motion.span>

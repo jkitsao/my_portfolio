@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 module.exports = {
   root: true,
   parser: "@typescript-eslint/parser",
@@ -16,8 +17,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:prettier/recommended",
-    "plugin:tailwind/recommended",
+    "plugin:prettier/recommended"
   ],
   rules: {
     "simple-import-sort/imports": "error",

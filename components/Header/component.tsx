@@ -85,10 +85,10 @@ export const Header: FC = () => {
         <Link href="/">
           <a href="/">
             {/* <Logo className="w-24 fill-current md:w-28 dark:text-white-900 text-black-900" /> */}
-            <h2 className="text-3xl font-semibold dark:text-lightOrange text-darkOrange">@kitsao</h2>
+            <h2 className="text-3xl font-semibold dark:text-darkOrange text-darkOrange">@kitsao</h2>
           </a>
         </Link>
-        <div className="flex items-center">
+        {/* <div className="flex items-center">
           <button
             className="items-center justify-center w-12 h-12 rounded-md dark:bg-gray-900 bg-pink focus:outline-none focus:ring-2 ring-blue-700 d-flex"
             onClick={toggleTheme}
@@ -100,7 +100,7 @@ export const Header: FC = () => {
                 <HiSun className="inline w-6 h-6" />
               )
             ) : null}
-          </button>
+          </button> */}
           {/* <div className="relative ml-2 md:ml-4">
             <select
               value={language}
@@ -124,7 +124,7 @@ export const Header: FC = () => {
               </svg>
             </span>
           </div> */}
-        </div>
+        {/* </div> */}
       </Container>
     </motion.div>
   );

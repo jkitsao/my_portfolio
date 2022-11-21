@@ -6,16 +6,16 @@ module.exports = {
   darkMode: "class",
   theme: {
     colors: {
-      darkTheme: "#251D3A",
-      navy: "#2A2550",
+      darkTheme: "#000000",
+      navy: "#003459",
       white: {
         900: "#ffffff",
         700: "#C9C9CB",
         500: "#A5A6A9",
         300: "#363B49",
       },
-      darkOrange: '#E04D01',
-      lightOrange: '#FF7700',
+      darkOrange: '#00A8E8',
+      lightOrange: '#007EA7',
       gray: {
         700: "#8E8E8E",
         900: "#363B49",

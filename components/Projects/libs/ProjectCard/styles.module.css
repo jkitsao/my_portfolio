@@ -1,10 +1,12 @@
 .description {
-  @apply my-8 text-base rounded-md text-black-700;
+  @apply my-8 text-base rounded-md ;
   max-width: 30rem;
 }
 
 .container {
   @apply relative bg-cover;
+  padding: 1rem 0.2rem;
+  /* background-color: black; */
 }
 
 :global(.dark) .description {

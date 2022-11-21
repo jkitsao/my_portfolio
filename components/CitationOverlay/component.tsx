@@ -1,9 +1,9 @@
-import { motion } from "framer-motion";
-import React, { FC,useState } from "react";
+import { motion } from 'framer-motion';
+import React, { FC, useState } from 'react';
 
-import { Container } from "../Container";
+import { Container } from '../Container';
 // import { NinjaIcon } from "./libs/NinjaIcon";
-import { Props } from "./props";
+import { Props } from './props';
 
 const textVariants = {
   initial: {
@@ -18,22 +18,22 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
   // const { t } = useTranslation();
 
   const [quotes] = useState([
-    "Entities should not be multiplied unnecessarily",
-    "Leisure is the mother of philosophy",
-    "Metaphysics is a dark ocean without shores or lighthouse, strewn with many a philosophic wreck",
-    "Philosophy is at once the most sublime and the most trivial of human pursuits",
-    "The mind is furnished with ideas by experience alone",
-    "Philosophers have hitherto only interpreted the world in various ways; the point, however, is to change it",
+    'Entities should not be multiplied unnecessarily',
+    'Leisure is the mother of philosophy',
+    'Metaphysics is a dark ocean without shores or lighthouse, strewn with many a philosophic wreck',
+    'Philosophy is at once the most sublime and the most trivial of human pursuits',
+    'The mind is furnished with ideas by experience alone',
+    'Philosophers have hitherto only interpreted the world in various ways; the point, however, is to change it',
   ]);
   const quote = quotes[Math.floor(Math.random() * quotes.length)];
-  console.log(quote)
+  console.log(quote);
   return (
     <motion.div
       className="absolute flex items-center justify-center w-full"
       variants={{
         initial: {
           opacity: 1,
-          height: "100%",
+          height: '100%',
         },
         invisible: {
           opacity: 0,
@@ -44,7 +44,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
         duration: 0.6,
       }}
       initial="initial"
-      animate={citation ? "initial" : "invisible"}
+      animate={citation ? 'initial' : 'invisible'}
     >
       <Container>
         <motion.div
@@ -68,7 +68,6 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
             duration: 1.2,
           }}
         >
-        
           "{quote}"
         </motion.p>
         <motion.p
