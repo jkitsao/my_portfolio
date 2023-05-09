@@ -12,7 +12,7 @@ export const Footer: FC = () => {
           className="hover:opacity-80 transition-opacity"
           rel="noreferrer"
         >
-          Jackson kitsao © 2022
+          Jackson kitsao © 2023
         </a>
       </p>
     </Container>
