@@ -1,14 +1,14 @@
 {
   "headTitle": "Home | Jackson kitsao",
   "hero": {
-    "title": "Hi, I'm Jackson kitsao!",
-    "p0": "Web Applications developer",
-    "p1": "Currently working full-time at",
+    "title": "Hello, I'm Jackson kitsao!",
+    "p0": "Cloud Applications Engineer | Experience with Media Streaming Technology. ",
+    "p1": "Lead Software Engineer ",
     "p2": "",
     "des0": "",
-    "des1": "I am a NextJs, Node and Rust developer with a strong interest in web development and web performance.",
-    "des2": "I have a wide range of experience in both backend and frontend development, and I am always keen to learn new technologies and improve my skills. I am a quick learner and have a good eye for detail, which makes me an asset to any team. I am also a good communicator and have a strong work ethic. My technology stack includes React, Nextjs, Nodejs, Redis, MongoDB express and Microservises.",
-    "des3": "I am also currently learning more about Cloud infrastructure, Game development, Distributed systems and Machine learning."
+    "des1": "I am proficient in Designing, Creating, Deploying, and maintaining scalable Services using JavaScript and recently Rust. ",
+    "des2": "I have a wide range of experience in both backend and frontend development, My expertise extends to video compression and encoding with FFmpeg and 3D development using the Bevy game engine. My primary focus is on the Entertainment industry, where I leverage my skills to deliver cutting-edge solutions for video, audio, and gaming applications.",
+    "des3": "My current role involves Designing and Developing Scalable Distributed Services using JavaScript, Rust, and AWS to support the company's cloud infrastructure."
   },
   "projects": {
     "title": "What i'm Working on ",
@@ -44,7 +44,7 @@
   },
   "skills": {
     "title": "Skills",
-    "description": "I am passionate about using cutting-edge technologies. These are the tools I am most familiar with and build things every day."
+    "description": "Strong understanding of Next.js framework and React.js library, In-depth knowledge of AWS services such as EC2, S3, CloudFront, and Lambda and Ability to manage and lead a team of developers and ensure the timely delivery of projects"
   },
   "experience": {
     "title": "Experience",
