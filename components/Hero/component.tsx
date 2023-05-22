@@ -48,7 +48,7 @@ export const Hero: FC = () => {
         <br />
         {t("hero.p1")}{" "}
         <motion.a
-          href="https://mymovies.africa"
+          href="https://app.mymovies.africa/home"
           target="_blank"
           className="relative text-darkOrange dark:text-gray-200"
           whileHover="visible"
