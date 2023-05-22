@@ -33,7 +33,7 @@ export const Projects: FC = () => {
         subtitle: t("projects.redditflix.subtitle"),
         description: t("projects.redditflix.description"),
         technologies: ["Nextjs", "React-Query", "Redis"],
-        externalLink: "https://redditflix.xyz",
+        externalLink: "https://www.redditfilms.vercel.app",
         githubLink: "https://github.com/jkitsao/redditfilms",
         imageLink: `/images/redditflix.png`,
       },
